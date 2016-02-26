@@ -20,10 +20,8 @@ public class FactBook {
             "Mammoths still walked the earth when the Great Pyramid was being built." };
     //Methods
     public String getFact() {
-
         String fact = "";
         //Randomly select a fact
-        //Update the screen with the dynamic fact
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(mFacts.length);
         fact = mFacts[randomNumber];
